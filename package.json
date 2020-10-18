@@ -15,8 +15,7 @@
   },
   "author": "mwieth",
   "license": "MIT",
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "@types/jasmine": "^3.5.14",
     "autoprefixer": "^8.6.0",
