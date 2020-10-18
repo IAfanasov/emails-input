@@ -1,0 +1,44 @@
+.emails-input {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  overflow-y: auto;
+  height: 100%;
+  padding: 8px; }
+  .emails-input--chip {
+    display: inline-flex;
+    overflow: hidden;
+    margin: 2px; }
+    .emails-input--chip__invalid {
+      margin-right: 8px;
+      margin-left: 8px;
+      border-bottom: 1px #d92929 dashed; }
+    .emails-input--chip__valid {
+      padding-right: 8px;
+      padding-left: 10px;
+      border-radius: 100px;
+      background-color: rgba(102, 153, 255, 0.2); }
+  .emails-input--chip-text {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap; }
+  .emails-input--chip-remove {
+    margin-right: 0;
+    margin-left: 8px;
+    cursor: pointer; }
+  .emails-input--input {
+    margin-left: 8px;
+    border: 0;
+    flex: 1; }
+    .emails-input--input:focus {
+      outline: 0; }
+    .emails-input--input::-webkit-input-placeholder {
+      color: #c3c2cf; }
+    .emails-input--input:-ms-input-placeholder {
+      color: #c3c2cf; }
+    .emails-input--input::-ms-input-placeholder {
+      color: #c3c2cf; }
+    .emails-input--input::placeholder {
+      color: #c3c2cf; }
+
