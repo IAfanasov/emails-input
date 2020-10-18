@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist/",
+    "sourceMap": true,
+    "noImplicitAny": true,
+    "module": "commonjs",
+    "target": "es5",
+    "allowJs": true,
+    "typeRoots": [
+      "node_modules/@types",
+      "./src/types"
+    ],
+    "lib": [
+      "es6",
+      "es7",
+      "es2017",
+      "es2018",
+      "esnext",
+      "dom"
+    ]
+  }
+}

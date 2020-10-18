@@ -1,0 +1,16 @@
+- [x] setup webpack prod build to have a file with email input only
+- [x] is valid email check
+- [x] do the logic
+- [x] examples
+    - [x] small width with the horizontal scroll
+    - [x] small width with ... 
+    - [x] small height with the vertical scroll
+- [x] scss files structure
+- [x] add random email button
+- [x] alert valid emails button
+- [x] handle paste
+- [x] align input vertically
+- [x] review comment
+- [x] readme
+- [ ] host on the GitHub
+- [x] check if the css autoprefixer works

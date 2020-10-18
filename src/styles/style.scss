@@ -1,0 +1,56 @@
+$color-text-primary : #050038;
+$color-bg-content : #f8f8f7;
+$color-bg-button : #4262ff;
+$color-bg-emails-input : #fff;
+$color-border-emails-input : #c3c2cf;
+$color-text-button : #fff;
+
+.share-board {
+  color       : $color-text-primary;
+  font-weight : 400;
+  font-size   : 14px;
+  max-height  : 300px;
+  max-width   : 500px;
+
+  // I would rather set the font in some global place to have it consistent in whole app
+  font-family : 'Open Sans', sans-serif;
+
+  // override line-height value from normalize
+  * {
+    line-height : 24px;
+  }
+
+  &--top {
+    padding          : 24px 50px;
+    background-color : $color-bg-content;
+  }
+
+  &--title {
+    padding-bottom : 24px;
+    font-weight    : normal;
+  }
+
+  &--emails-input {
+    min-height       : 80px;
+    max-height       : 200px;
+    border           : 1px solid $color-border-emails-input;
+    border-radius    : 4px;
+    background-color : $color-bg-emails-input;
+  }
+
+  &--buttons-bar {
+    padding-top  : 24px;
+    padding-left : 50px;
+  }
+
+  &--button {
+    height        : 40px;
+    margin-right  : 16px;
+    padding       : 8px 16px;
+    border        : 0;
+    border-radius : 6px;
+    background    : $color-bg-button;
+    color         : $color-text-button;
+  }
+
+}

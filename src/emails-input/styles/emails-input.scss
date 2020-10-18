@@ -1,0 +1,62 @@
+$color-valid-chip : rgba(#69f, 0.2);
+$color-invalid : #d92929;
+$color-placeholder : #c3c2cf;
+
+.emails-input {
+
+  display        : flex;
+  flex-direction : row;
+  flex-wrap      : wrap;
+  align-items    : flex-start;
+  overflow-y     : auto;
+  height         : 100%;
+  padding        : 8px;
+
+  &--chip {
+    display  : inline-flex;
+    overflow : hidden;
+    margin   : 2px;
+
+    &__invalid {
+      margin-right  : 8px;
+      margin-left   : 8px;
+      border-bottom : 1px $color-invalid dashed;
+    }
+
+    &__valid {
+      padding-right    : 8px;
+      padding-left     : 10px;
+      border-radius    : 100px;
+      background-color : $color-valid-chip;
+    }
+  }
+
+  &--chip-text {
+    overflow      : hidden;
+    text-overflow : ellipsis;
+    white-space   : nowrap;
+  }
+
+  &--chip-remove {
+    margin-right : 0;
+    margin-left  : 8px;
+    cursor       : pointer;
+  }
+
+  &--input {
+    margin-left : 8px;
+    border      : 0;
+    flex        : 1;
+
+    // I would ask designer the border color for the focused input
+    &:focus {
+      outline : 0;
+    }
+
+    &::placeholder {
+      color : $color-placeholder;
+    }
+  }
+}
+
+
